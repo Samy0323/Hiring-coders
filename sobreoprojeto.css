@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+ul{
+    list-style: none;
+    cursor: pointer;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+  
+    background: url(./background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: 200%;
+}
+
+Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    
+}
+
+header ul li {
+    padding: 15px;
+}
+
+header ul li a {
+    transition: 300ms;
+}
+
+header ul li a:hover {
+    color: #20495c;
+    text-decoration: underline;
+
+}
+
+
+
+.container {
+    text-align: center;
+    margin: 0% auto;
+}
+.container .name h1 {
+   font-size: 75px;
+}
+.container .name h5 {
+        font-size: 30px;
+}
+#arrow {
+    font-size: 35px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+    to {
+        visibility: hidden;
+        transition: 100ms;
+    }
+}
+#animation {
+    transition: 300ms;
+}
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.active {
+
+}
+.form {
+    width: 60%;
+    padding: 5px 10px;
+    margin: 0% auto;
+    margin-top: 2%;
+}
+.form input {
+    width: 50%;
+    align-items: center;
+    margin-top: 2%;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px 10px;
+}
+.form button {
+    width: 25%;
+    padding: 5px 10px;
+    margin: 0 auto;
+    background: linear-gradient(to right, rgba(74, 232, 243, 0.575) 50%, rgba(127, 84, 196, 0.575) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: whitesmoke;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 350ms ease-out;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+
+    
+}
+
+.form button:hover {
+    background-position: left bottom;
+   
+    
+
+}
+.backpage button {
+    display: grid;
+    width: 5%;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 0px;
+    color: black;
+}

@@ -1,0 +1,85 @@
+<html>
+    <html lang="pt-BR"></html>
+
+  <head>
+      <title>.:Projetinho da Sam </title>
+      <script src="https://kit.fontawesome.com/f7c30317a1.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Hind&family=Montserrat:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="sobreoprojeto.css">
+    </head>
+
+
+  <body>
+
+      <header>
+        <div id="header">
+            <img src="SRlogo4.png" width="250" alt="Sam white habbit">
+        </div>
+        <div>
+            <ul>
+                <li> 
+                    <a target="_blank" href="https://github.com/Samy0323">github</a>
+                </li>
+                <li>
+                    <a target="_blank" href="mailto:samanthaorodrigues@gmail.com">email</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://wa.me/11987671813">whatsapp</a>
+                </li> 
+            </ul>
+        </div>
+        
+      </header>
+      
+      <main>
+          <section class="container">
+              <div class="name">
+                  <h1>Sam's Project</h1>
+                  <h5>Entusiasta Front-End </h5>
+              </div>
+
+              <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-circle-arrow-down"></i>
+
+              </div>
+              <div id="about">
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti asperiores laboriosam maiores voluptatum tempore voluptate alias temporibus ullam voluptatibus debitis eveniet odit quos perspiciatis eaque molestias, animi nesciunt earum quibusdam.
+                  </p>
+              </div>
+              <div class="form">
+                  <div>
+                      <p>Deixe seu contato</p>
+                  </div>
+                  <form action="">
+                      <input type="text" placeholder="seu melhor email :)">
+                      <button>
+                          enviar!
+                      </button>
+                  </form>
+              </div>
+          </section>
+      </main>
+
+
+      <script>
+          function displayAbout() {
+              var arrow = document.getElementById('animation');
+              arrow.classList.toggle('rotate');
+          }          
+      </script>
+     
+  </body>
+
+  <footer>
+    <div class="backpage">
+    <button onclick="document.location='index.html'">
+      Voltar
+    </button>
+  </div>
+</footer>
+
+  </html>
+
